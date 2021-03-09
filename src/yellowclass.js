@@ -3,7 +3,7 @@ import axios from "axios";
 import InfiniteScroll from "react-infinite-scroll-component";
 import './index.css';
 
-export default function yellowclass(){
+export default function Yellowclass(){
         const [images, setimages] = useState([])
         const [loadedimg, loadimg] = useState(false)
     
@@ -13,7 +13,7 @@ export default function yellowclass(){
             </div>
           );
     
-        const fetchImages = (count = 13) => {
+        const fetchImages = (count = 10) => {
             const accessKey = "LMxV3Ei7wrau-47HDadeU_upGgriexu--URLZ1vWJUs";        
             axios
               .get(`https://api.unsplash.com/photos/random?client_id=${accessKey}&count=${count}`)

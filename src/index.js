@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import yellowclass from './yellowclass';
+import Yellowclass from './Yellowclass';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -10,7 +10,7 @@ ReactDOM.render(
       <div className="yc">
         <h1> Yellow Class</h1>    
       </div>
-      <yellowclass />
+      <Yellowclass />
     </div> 
   </React.StrictMode>,
   document.getElementById('root')
