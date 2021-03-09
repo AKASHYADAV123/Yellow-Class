@@ -3,7 +3,7 @@ import axios from "axios";
 import InfiniteScroll from "react-infinite-scroll-component";
 import './index.css';
 
-export default function Imagefeed(){
+export default function yellowclass(){
         const [images, setimages] = useState([])
         const [loadedimg, loadimg] = useState(false)
     
