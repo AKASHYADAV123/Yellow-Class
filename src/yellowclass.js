@@ -22,6 +22,7 @@ export default function Yellowclass(){
                 loadimg(true)
               });
         };
+    
         useEffect(()=>{
             fetchImages()
             console.log(images)
